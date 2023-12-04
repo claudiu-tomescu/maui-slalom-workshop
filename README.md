@@ -4,6 +4,10 @@ This repository contains the code and artifacts for the .NET MAUI workshop, as w
 
 
 
+In this workshop we'll be using the New Yor Times' Top Stories API. For more info please refer to: [Top Stories | Dev Portal (nytimes.com)](https://developer.nytimes.com/docs/top-stories-product/1/overview)
+
+
+
 ## Lesson 1
 
 In this lesson we'll go over the basic of .NET MAUI application structure, installing the Visual Studio workload, creating and running a basic MAUI application in iOS and Android. We'll also get a glimpse of the final application that we're going to build together.
