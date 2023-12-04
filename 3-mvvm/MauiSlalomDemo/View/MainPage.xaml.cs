@@ -1,11 +1,13 @@
-﻿namespace MauiSlalomDemo;
+﻿using MauiSlalomDemo.ViewModel;
+
+namespace MauiSlalomDemo;
 
 public partial class MainPage : ContentPage
 {
-
-	public MainPage()
+	public MainPage(TopStoriesViewModel viewModel)
 	{
 		InitializeComponent();
+		BindingContext = viewModel;
 	}
 
 }

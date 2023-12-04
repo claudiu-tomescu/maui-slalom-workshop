@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using MauiSlalomDemo.Services;
+using MauiSlalomDemo.ViewModel;
+using Microsoft.Extensions.Logging;
 
 namespace MauiSlalomDemo;
 
@@ -18,6 +20,9 @@ public static class MauiProgram
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
+        builder.Services.AddTransient<MainPage>();
+        builder.Services.AddSingleton<TopStoriesService>();
+		builder.Services.AddTransient<TopStoriesViewModel>();
 
 		return builder.Build();
 	}
