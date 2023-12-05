@@ -28,9 +28,17 @@ In this lesson we'll go ahead and create the layout for displaying the list of a
 
 
 
+Here is the link for the lesson's recording: [MAUI Workshop-20231127_120346-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231127_120346-Meeting Recording.mp4?csf=1&web=1&e=JJh8d1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+
 ## Lesson 3
 
 In this lesson we'll dynamically load the list of articles using the New Yort Times API and display it on the screen by binding it to the CollectionView control created in previous lesson using MVVM pattern. We'll also demonstrate the use of MAUI's dependency injection for automatically creating service and view-model instrances.
+
+
+
+Here is the link for the lesson's recording: [MAUI Workshop-20231204_120141-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231204_120141-Meeting Recording.mp4?csf=1&web=1&e=9CKFDt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
