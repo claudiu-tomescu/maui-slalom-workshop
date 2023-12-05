@@ -38,7 +38,9 @@ In this lesson we'll dynamically load the list of articles using the New Yort Ti
 
 This lesson takes our application development one step further by:
 
-* Implementing a multi tab interface (each tab will show a different category of articles: arts, science, etc. )
+* Load stories automatically when page loads
+
+* Implementing a multi tab interface (each tab will show a different category of articles: arts, science, etc.)
 
 * Implement pull to refresh for loading the list of articles
 
