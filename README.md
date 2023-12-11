@@ -28,7 +28,7 @@ In this lesson we'll go ahead and create the layout for displaying the list of a
 
 
 
-Here is the link to the recording: [MAUI Workshop-20231127_120346-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231127_120346-Meeting Recording.mp4?csf=1&web=1&e=JJh8d1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Here is the link to the recording: [MAUI Workshop-20231127_120346-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI%20Workshop-20231127_120346-Meeting Recording.mp4?csf=1&web=1&e=JJh8d1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
@@ -38,7 +38,7 @@ In this lesson we'll dynamically load the list of articles using the New Yort Ti
 
 
 
-Here is the link to the recording: [MAUI Workshop-20231204_120141-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231204_120141-Meeting Recording.mp4?csf=1&web=1&e=9CKFDt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Here is the link to the recording: [MAUI Workshop-20231204_120141-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI%20Workshop-20231204_120141-Meeting Recording.mp4?csf=1&web=1&e=9CKFDt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
@@ -53,7 +53,7 @@ This lesson takes our application development one step further by:
 
 
 
-Here is the link to the recording: [MAUI Workshop-20231211_120156-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231211_120156-Meeting Recording.mp4?csf=1&web=1&e=yUc7V2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Here is the link to the recording: [MAUI Workshop-20231211_120156-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI%20Workshop-20231211_120156-Meeting Recording.mp4?csf=1&web=1&e=yUc7V2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Below are screenshots with pull to refresh feature in action inthe iOS app running in the iOS simulator, as well as the swipe gestures in the Android app running in the emulator.
 
