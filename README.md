@@ -28,7 +28,7 @@ In this lesson we'll go ahead and create the layout for displaying the list of a
 
 
 
-Here is the link for the lesson's recording: [MAUI Workshop-20231127_120346-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231127_120346-Meeting Recording.mp4?csf=1&web=1&e=JJh8d1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Here is the link to the recording: [MAUI Workshop-20231127_120346-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231127_120346-Meeting Recording.mp4?csf=1&web=1&e=JJh8d1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
@@ -38,7 +38,7 @@ In this lesson we'll dynamically load the list of articles using the New Yort Ti
 
 
 
-Here is the link for the lesson's recording: [MAUI Workshop-20231204_120141-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231204_120141-Meeting Recording.mp4?csf=1&web=1&e=9CKFDt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Here is the link to the recording: [MAUI Workshop-20231204_120141-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231204_120141-Meeting Recording.mp4?csf=1&web=1&e=9CKFDt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
@@ -47,11 +47,10 @@ Here is the link for the lesson's recording: [MAUI Workshop-20231204_120141-Meet
 This lesson takes our application development one step further by:
 
 * Load stories automatically when page loads
+* Implement pull to refresh for refreshing the list of articles (RefreshView)
+* Implementing a multi tab interface (Shell & TabBar). Implement the sub-tabs (or top level tabs within a tab)
+* Demonstrate swipe gestures (SwipeView)
 
-* Implementing a multi tab interface (each tab will show a different category of articles: arts, science, etc.)
 
-* Implement pull to refresh for loading the list of articles
 
-* Demonstrate swipe gestures
-
-  
+Here is the link to the recording: [MAUI Workshop-20231211_120156-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231211_120156-Meeting Recording.mp4?csf=1&web=1&e=yUc7V2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
