@@ -7,7 +7,7 @@ namespace MauiSlalomDemo.Services
     {
         List<TopStory> topStories = new();
         HttpClient httpClient = new HttpClient();
-        const string API_KEY = "1iztzH4EbZwmlFpu7U1B8ssKmVBAUuMf";
+        const string API_KEY = "rl01NT4xOodyre2Dcs1rRheqpyV3wokb";
 
         public async Task<List<TopStory>> GetTopStories()
         {
