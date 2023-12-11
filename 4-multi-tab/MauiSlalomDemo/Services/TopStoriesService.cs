@@ -12,7 +12,7 @@ namespace MauiSlalomDemo.Services
         public async Task<List<TopStory>> GetTopStories()
         {
            
-            Uri uri = new Uri(string.Format("https://api.nytimes.com/svc/topstories/v2/arts.json?api-key={0}", API_KEY));
+            Uri uri = new Uri(string.Format("https://api.nytimes.com/svc/topstories/v2/home.json?api-key={0}", API_KEY));
             try
             {
                 var response = await httpClient.GetAsync(uri);

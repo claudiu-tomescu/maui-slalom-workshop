@@ -7,33 +7,26 @@
              x:DataType="viewmodel:TopStoriesViewModel"
              Title="{Binding Title}">
 
-    <Grid ColumnDefinitions="*"
+    <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                 Command="{Binding RefreshStoriesCommand}">
+
+        
+            <Grid ColumnDefinitions="*"
         ColumnSpacing="5"
         RowDefinitions="*,Auto"
         RowSpacing="0">
 
 
-        <CollectionView Grid.Row="0" ItemsSource="{Binding TopStories}">
-            <!--<CollectionView.ItemsSource>
-                <x:Array Type="{x:Type model:TopStory}">
-                    <model:TopStory
-                        Title="Right-Wing House Republicans Derail Pentagon G.O.P. Bill, Rebuking McCarthy"
-                        Abstract="The floor defeat underscored the G.O.P. resistance Speaker Kevin McCarthy was facing as he struggled to round up votes to avoid a government shutdown."
-                        Image="https://static01.nyt.com/images/2023/09/19/multimedia/19dc-spend-sub-pwkl/19dc-spend-sub-pwkl-thumbLarge.jpg"></model:TopStory>
-                    <model:TopStory
-                        Title="Ukraine’s Fight Is the World’s, Zelensky Tells U.N. Assembly"
-                        Abstract="Painting Vladimir Putin’s Russia as a nation that seeks to dominate others, President Volodymyr Zelensky cast his appeal for broad support as a matter of global security."
-                        Image="https://static01.nyt.com/images/2023/09/19/multimedia/19nations-zelensky-01-kmqb/19nations-zelensky-01-kmqb-thumbLarge.jpg"></model:TopStory>
-                    <model:TopStory
-                        Title="Biden, in U.N. Speech, Calls for Action on Ukraine and Other Crises"
-                        Abstract="As other major leaders skipped the annual opening session of the General Assembly, Mr. Biden used his address to try to counter war fatigue both at home and abroad."
-                        Image="https://static01.nyt.com/images/2023/09/19/multimedia/19unga-blog-biden-speech-topart-fzhk/19unga-blog-biden-speech-topart-fzhk-thumbLarge.jpg"></model:TopStory>
-                </x:Array>
-
-            </CollectionView.ItemsSource>-->
-
+        <CollectionView Grid.Row="0" ItemsSource="{Binding TopStories}">            
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:TopStory">
+                        <SwipeView>
+            <SwipeView.RightItems>
+                <SwipeItems>
+                    <SwipeItem Text="Hide" IconImageSource="hidden.png"></SwipeItem>
+                </SwipeItems>
+
+            </SwipeView.RightItems>
                     <Grid Padding="10, 10, 10, 0">
                         <Frame HeightRequest="150" Style="{StaticResource CardView}" Padding="0" CornerRadius="0">
                             <Grid Padding="0" ColumnDefinitions="150,*">
@@ -58,19 +51,26 @@
                         </Frame>
 
                     </Grid>
-
+                            </SwipeView>
                 </DataTemplate>
 
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Button Grid.Row="2" Text="Load Stories"
+        <Button Grid.Row="2" Text="Load Stories" IsVisible="False"
                 IsEnabled="{Binding IsNotBusy}"
                 Command="{Binding GetTopStoriesCommand}"></Button>
 
         <ActivityIndicator IsRunning="{Binding IsBusy}"></ActivityIndicator>
 
     </Grid>
+
+        
+
+        
+    </RefreshView>
+
+    
 
 </ContentPage>
 

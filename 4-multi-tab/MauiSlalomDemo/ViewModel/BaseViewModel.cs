@@ -5,6 +5,7 @@ namespace MauiSlalomDemo.ViewModel
 	{
         bool isBusy;
         string title;
+        bool isRefreshing;
 
         public bool IsBusy
         {
@@ -16,6 +17,18 @@ namespace MauiSlalomDemo.ViewModel
                 isBusy = value;
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(IsNotBusy));
+            }
+        }
+
+        public bool IsRefreshing
+        {
+            get => isRefreshing;
+            set
+            {
+                if (isRefreshing == value)
+                    return;
+                isRefreshing = value;
+                OnPropertyChanged();
             }
         }
 

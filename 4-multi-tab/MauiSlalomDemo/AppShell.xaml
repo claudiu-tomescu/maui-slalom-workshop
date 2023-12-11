@@ -6,10 +6,35 @@
     xmlns:local="clr-namespace:MauiSlalomDemo"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Hello world"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+
+        <Tab Icon="home" Title="Home">
+            <ShellContent
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
+
+        </Tab>
+        <Tab Icon="world" Title="World">
+            <ShellContent Title="Asia">
+                <ContentPage Title="World Stories - Asia">
+                    <Label Text="World news" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+
+                </ContentPage>
+
+            </ShellContent>
+            <ShellContent Title="Europe">
+                <ContentPage Title="World Stories - Europe">
+                    <Label Text="Europe" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+
+                </ContentPage>
+
+            </ShellContent>
+
+        </Tab>
+
+    </TabBar>
+
+    
 
 </Shell>
 
