@@ -46,7 +46,7 @@ Here is the link to the recording: [MAUI Workshop-20231204_120141-Meeting Record
 
 This lesson takes our application development one step further by:
 
-* Load stories automatically when page loads
+* Load stories automatically when page loads (removing the button to load them on click)
 * Implement pull to refresh for refreshing the list of articles (RefreshView)
 * Implementing a multi tab interface (Shell & TabBar). Implement the sub-tabs (or top level tabs within a tab)
 * Demonstrate swipe gestures (SwipeView)
@@ -54,3 +54,9 @@ This lesson takes our application development one step further by:
 
 
 Here is the link to the recording: [MAUI Workshop-20231211_120156-Meeting Recording.mp4](https://twodegrees1-my.sharepoint.com/:v:/r/personal/claudiu_tomescu_slalom_com/Documents/Recordings/MAUI Workshop-20231211_120156-Meeting Recording.mp4?csf=1&web=1&e=yUc7V2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Below are screenshots with pull to refresh feature in action inthe iOS app running in the iOS simulator, as well as the swipe gestures in the Android app running in the emulator.
+
+![Pull to refresh in action](Pull_To_Refresh.png)
+
+![Swipe gestures](Swipe_Gestures.png)
