@@ -4,7 +4,8 @@ This repository contains the code and artifacts for the .NET MAUI workshop, as w
 
 
 
-In this workshop we'll be using the New Yor Times' Top Stories API. For more info please refer to: [Top Stories | Dev Portal (nytimes.com)](https://developer.nytimes.com/docs/top-stories-product/1/overview)
+In this workshop we'll be using the New Yor Times' Top Stories API. Make sure you get your own API key and replace the one in the repository.
+For more info please refer to: [Top Stories | Dev Portal (nytimes.com)](https://developer.nytimes.com/docs/top-stories-product/1/overview)
 
 
 
